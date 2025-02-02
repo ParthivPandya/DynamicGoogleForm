@@ -4,7 +4,7 @@
     "description": "TypeScript Form Builder",
     "type": "commonjs",
     "scripts": {
-        "build": "tsc",
+        "build": "parcel build public/index.html --dist-dir dist",
         "start": "parcel public/index.html",
         "dev": "parcel public/index.html"
     },
