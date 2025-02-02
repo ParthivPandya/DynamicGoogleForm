@@ -1,0 +1,17 @@
+{
+    "name": "form-builder",
+    "version": "1.0.0",
+    "description": "TypeScript Form Builder",
+    "type": "commonjs",
+    "scripts": {
+        "build": "tsc",
+        "start": "parcel public/index.html",
+        "dev": "parcel public/index.html"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9",
+        "parcel": "^2.13.3",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.0.0"
+    }
+}
